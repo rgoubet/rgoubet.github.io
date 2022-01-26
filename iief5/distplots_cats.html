@@ -1,0 +1,108 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Panel</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.12.6/dist/css/alerts.css" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.12.6/dist/css/card.css" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.12.6/dist/css/dataframe.css" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.12.6/dist/css/json.css" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.12.6/dist/css/loading.css" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.12.6/dist/css/markdown.css" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.12.6/dist/css/widgets.css" type="text/css" />
+        <style>
+            
+                    .bk.pn-loading.arcs:before {
+                      background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBzdHlsZT0ibWFyZ2luOiBhdXRvOyBiYWNrZ3JvdW5kOiBub25lOyBkaXNwbGF5OiBibG9jazsgc2hhcGUtcmVuZGVyaW5nOiBhdXRvOyIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIj4gIDxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjMyIiBzdHJva2Utd2lkdGg9IjgiIHN0cm9rZT0iI2MzYzNjMyIgc3Ryb2tlLWRhc2hhcnJheT0iNTAuMjY1NDgyNDU3NDM2NjkgNTAuMjY1NDgyNDU3NDM2NjkiIGZpbGw9Im5vbmUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+ICAgIDxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgdHlwZT0icm90YXRlIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgZHVyPSIxcyIga2V5VGltZXM9IjA7MSIgdmFsdWVzPSIwIDUwIDUwOzM2MCA1MCA1MCI+PC9hbmltYXRlVHJhbnNmb3JtPiAgPC9jaXJjbGU+PC9zdmc+");
+                      max-height: 400px;
+                    }
+                    
+        </style>
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.min.js"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-2.4.2.min.js"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.4.2.min.js"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-2.4.2.min.js"></script>
+        <script type="text/javascript" src="https://unpkg.com/@holoviz/panel@0.12.6/dist/panel.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="53f2cdff-1d1b-42b7-8090-e71b87e962ae" data-root-id="322588"></div>
+            
+          
+            
+              <div class="bk-root" id="e2171a3b-47cb-4df7-8e31-b35e5b3ad569" data-root-id="322690"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="322786">
+          {"7b610052-eda3-48ec-8228-88b7784a4f35":{"defs":[{"extends":null,"module":null,"name":"ReactiveHTML1","overrides":[],"properties":[]},{"extends":null,"module":null,"name":"FlexBox1","overrides":[],"properties":[{"default":"flex-start","kind":null,"name":"align_content"},{"default":"flex-start","kind":null,"name":"align_items"},{"default":"row","kind":null,"name":"flex_direction"},{"default":"wrap","kind":null,"name":"flex_wrap"},{"default":"flex-start","kind":null,"name":"justify_content"}]},{"extends":null,"module":null,"name":"TemplateActions1","overrides":[],"properties":[{"default":0,"kind":null,"name":"open_modal"},{"default":0,"kind":null,"name":"close_modal"}]},{"extends":null,"module":null,"name":"MaterialTemplateActions1","overrides":[],"properties":[{"default":0,"kind":null,"name":"open_modal"},{"default":0,"kind":null,"name":"close_modal"}]}],"roots":{"references":[{"attributes":{"coordinates":null,"data_source":{"id":"322623"},"glyph":{"id":"322626"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"322628"},"nonselection_glyph":{"id":"322627"},"selection_glyph":{"id":"322643"},"view":{"id":"322630"}},"id":"322629","type":"GlyphRenderer"},{"attributes":{"state":{"Pb C-V":{"content":"{\"events\": [{\"attr\": \"axis_label\", \"hint\": null, \"kind\": \"ModelChanged\", \"model\": {\"id\": \"322602\"}, \"new\": \"Pb C-V\"}, {\"attr\": \"tooltips\", \"hint\": null, \"kind\": \"ModelChanged\", \"model\": {\"id\": \"322592\"}, \"new\": [[\"Pb C-V\", \"@{Pb_C_hyphen_minus_V}\"], [\"Variable\", \"@{Variable}\"], [\"value\", \"@{value}\"]]}, {\"cols\": null, \"column_source\": {\"id\": \"322623\"}, \"kind\": \"ColumnDataChanged\", \"new\": {\"Pb_C_hyphen_minus_V\": [\"False\", \"True\", \"False\", \"True\", \"False\", \"True\", \"False\", \"True\", \"False\", \"True\", \"False\", \"True\"], \"Polyarthritis\": [\"False\", \"True\", \"False\", \"True\", \"False\", \"True\", \"False\", \"True\", \"False\", \"True\", \"False\", \"True\"], \"Variable\": [\"0.0\", \"0.0\", \"1.0\", \"1.0\", \"2.0\", \"2.0\", \"3.0\", \"3.0\", \"4.0\", \"4.0\", \"5.0\", \"5.0\"], \"bottom\": {\"__ndarray__\": \"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAEAAAAAAAAAQQAAAAAAAAABAAAAAAAAAFEAAAAAAAAAIQAAAAAAAACJAAAAAAAAAIEAAAAAAAAAoQAAAAAAAACBA\", \"dtype\": \"float64\", \"order\": \"little\", \"shape\": [12]}, \"top\": {\"__ndarray__\": \"AAAAAAAACEAAAAAAAAAAQAAAAAAAABBAAAAAAAAAAEAAAAAAAAAUQAAAAAAAAAhAAAAAAAAAIkAAAAAAAAAgQAAAAAAAAChAAAAAAAAAIEAAAAAAAAA2QAAAAAAAACBA\", \"dtype\": \"float64\", \"order\": \"little\", \"shape\": [12]}, \"value\": {\"__ndarray__\": \"AAAAAAAACEAAAAAAAAAAQAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAPA/AAAAAAAAEEAAAAAAAAAUQAAAAAAAAAhAAAAAAAAAAAAAAAAAAAAkQAAAAAAAAAAA\", \"dtype\": \"float64\", \"order\": \"little\", \"shape\": [12]}}}, {\"attr\": \"x\", \"hint\": null, \"kind\": \"ModelChanged\", \"model\": {\"id\": \"322626\"}, \"new\": {\"field\": \"Pb_C_hyphen_minus_V\"}}, {\"attr\": \"x\", \"hint\": null, \"kind\": \"ModelChanged\", \"model\": {\"id\": \"322643\"}, \"new\": {\"field\": \"Pb_C_hyphen_minus_V\"}}, {\"attr\": \"x\", \"hint\": null, \"kind\": \"ModelChanged\", \"model\": {\"id\": \"322627\"}, \"new\": {\"field\": \"Pb_C_hyphen_minus_V\"}}, {\"attr\": \"x\", \"hint\": null, \"kind\": \"ModelChanged\", \"model\": {\"id\": \"322628\"}, \"new\": {\"field\": \"Pb_C_hyphen_minus_V\"}}], \"references\": []}","header":"{\"msgid\": \"322718\", \"msgtype\": \"PATCH-DOC\"}","metadata":"{}"},"Polyarthritis":{"content":"{\"events\": [{\"attr\": \"axis_label\", \"hint\": null, \"kind\": \"ModelChanged\", \"model\": {\"id\": \"322602\"}, \"new\": \"Polyarthritis\"}, {\"attr\": \"tooltips\", \"hint\": null, \"kind\": \"ModelChanged\", \"model\": {\"id\": \"322592\"}, \"new\": [[\"Polyarthritis\", \"@{Polyarthritis}\"], [\"Variable\", \"@{Variable}\"], [\"value\", \"@{value}\"]]}, {\"cols\": null, \"column_source\": {\"id\": \"322623\"}, \"kind\": \"ColumnDataChanged\", \"new\": {\"Pb_C_hyphen_minus_V\": [\"False\", \"True\", \"False\", \"True\", \"False\", \"True\", \"False\", \"True\", \"False\", \"True\", \"False\", \"True\"], \"Polyarthritis\": [\"False\", \"True\", \"False\", \"True\", \"False\", \"True\", \"False\", \"True\", \"False\", \"True\", \"False\", \"True\"], \"Variable\": [\"0.0\", \"0.0\", \"1.0\", \"1.0\", \"2.0\", \"2.0\", \"3.0\", \"3.0\", \"4.0\", \"4.0\", \"5.0\", \"5.0\"], \"bottom\": {\"__ndarray__\": \"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAAAAAABhAAAAAAAAAAAAAAAAAAAAgQAAAAAAAABBAAAAAAAAAKkAAAAAAAAAQQAAAAAAAADBA\", \"dtype\": \"float64\", \"order\": \"little\", \"shape\": [12]}, \"top\": {\"__ndarray__\": \"AAAAAAAAAAAAAAAAAAAUQAAAAAAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAAAAAACBAAAAAAAAAEEAAAAAAAAAqQAAAAAAAABBAAAAAAAAAMEAAAAAAAAAgQAAAAAAAADZA\", \"dtype\": \"float64\", \"order\": \"little\", \"shape\": [12]}, \"value\": {\"__ndarray__\": \"AAAAAAAAAAAAAAAAAAAUQAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAABAAAAAAAAAEEAAAAAAAAAUQAAAAAAAAAAAAAAAAAAACEAAAAAAAAAQQAAAAAAAABhA\", \"dtype\": \"float64\", \"order\": \"little\", \"shape\": [12]}}}, {\"attr\": \"x\", \"hint\": null, \"kind\": \"ModelChanged\", \"model\": {\"id\": \"322626\"}, \"new\": {\"field\": \"Polyarthritis\"}}, {\"attr\": \"x\", \"hint\": null, \"kind\": \"ModelChanged\", \"model\": {\"id\": \"322643\"}, \"new\": {\"field\": \"Polyarthritis\"}}, {\"attr\": \"x\", \"hint\": null, \"kind\": \"ModelChanged\", \"model\": {\"id\": \"322627\"}, \"new\": {\"field\": \"Polyarthritis\"}}, {\"attr\": \"x\", \"hint\": null, \"kind\": \"ModelChanged\", \"model\": {\"id\": \"322628\"}, \"new\": {\"field\": \"Polyarthritis\"}}], \"references\": []}","header":"{\"msgid\": \"322725\", \"msgtype\": \"PATCH-DOC\"}","metadata":"{}"}},"values":["Polyarthritis"],"widgets":{"322678":0}},"id":"322690","type":"panel.models.state.State"},{"attributes":{"axis":{"id":"322602"},"coordinates":null,"grid_line_color":null,"group":null,"ticker":null},"id":"322604","type":"Grid"},{"attributes":{},"id":"322633","type":"BasicTickFormatter"},{"attributes":{"children":[{"id":"322678"}],"css_classes":["panel-widget-box"],"margin":[5,5,5,5],"name":"WidgetBox672654"},"id":"322677","type":"Column"},{"attributes":{},"id":"322603","type":"CategoricalTicker"},{"attributes":{"end":23.4,"reset_end":23.4,"reset_start":0.0,"tags":[[["value","value",null]]]},"id":"322591","type":"Range1d"},{"attributes":{"coordinates":null,"group":null,"items":[{"id":"322642"}],"location":[0,0]},"id":"322641","type":"Legend"},{"attributes":{"margin":[5,5,5,5],"name":"VSpacer672659","sizing_mode":"stretch_height"},"id":"322679","type":"Spacer"},{"attributes":{"js_property_callbacks":{"change:value":[{"id":"322691"}]},"margin":[20,20,20,20],"min_width":250,"options":["Polyarthritis","Pb C-V"],"title":"Select_categorical_var","value":"Polyarthritis","width":250},"id":"322678","type":"Select"},{"attributes":{"axis":{"id":"322605"},"coordinates":null,"dimension":1,"grid_line_color":null,"group":null,"ticker":null},"id":"322608","type":"Grid"},{"attributes":{},"id":"322637","type":"AllLabels"},{"attributes":{"overlay":{"id":"322614"}},"id":"322612","type":"BoxZoomTool"},{"attributes":{},"id":"322634","type":"AllLabels"},{"attributes":{"coordinates":null,"group":null,"text":"Target = IIEF5 V Histogram by each Categorical Variable","text_color":"black","text_font_size":"12pt"},"id":"322594","type":"Title"},{"attributes":{"children":[{"id":"322593"},{"id":"322676"}],"margin":[0,0,0,0],"name":"Row672661"},"id":"322589","type":"Row"},{"attributes":{},"id":"322613","type":"ResetTool"},{"attributes":{},"id":"322606","type":"BasicTicker"},{"attributes":{"bottom":{"field":"bottom"},"fill_color":{"field":"Variable","transform":{"id":"322622"}},"hatch_color":{"field":"Variable","transform":{"id":"322622"}},"top":{"field":"top"},"width":{"value":0.8},"x":{"field":"Polyarthritis"}},"id":"322626","type":"VBar"},{"attributes":{"callback":null,"renderers":[{"id":"322629"}],"tags":["hv_created"],"tooltips":[["Polyarthritis","@{Polyarthritis}"],["Variable","@{Variable}"],["value","@{value}"]]},"id":"322592","type":"HoverTool"},{"attributes":{},"id":"322600","type":"LinearScale"},{"attributes":{"source":{"id":"322623"}},"id":"322630","type":"CDSView"},{"attributes":{"factors":["False","True"],"tags":[[["Polyarthritis","Polyarthritis",null]]]},"id":"322590","type":"FactorRange"},{"attributes":{"tools":[{"id":"322592"},{"id":"322609"},{"id":"322610"},{"id":"322611"},{"id":"322612"},{"id":"322613"}]},"id":"322615","type":"Toolbar"},{"attributes":{"bottom":{"field":"bottom"},"fill_alpha":{"value":0.1},"fill_color":{"field":"Variable","transform":{"id":"322622"}},"hatch_alpha":{"value":0.1},"hatch_color":{"field":"Variable","transform":{"id":"322622"}},"line_alpha":{"value":0.1},"top":{"field":"top"},"width":{"value":0.8},"x":{"field":"Polyarthritis"}},"id":"322627","type":"VBar"},{"attributes":{"code":"\nvar state = null\nfor (var root of cb_obj.document.roots()) {\n  if (root.id == '322690') {\n    state = root;\n    break;\n  }\n}\nif (!state) { return; }\nstate.set_state(cb_obj, cb_obj.value)\n"},"id":"322691","type":"CustomJS"},{"attributes":{},"id":"322610","type":"PanTool"},{"attributes":{},"id":"322638","type":"UnionRenderers"},{"attributes":{"bottom":{"field":"bottom"},"fill_alpha":{"value":1.0},"fill_color":{"field":"Variable","transform":{"id":"322622"}},"hatch_alpha":{"value":1.0},"hatch_color":{"field":"Variable","transform":{"id":"322622"}},"hatch_scale":{"value":12.0},"hatch_weight":{"value":1.0},"line_alpha":{"value":1.0},"line_cap":{"value":"butt"},"line_color":{"value":"black"},"line_dash":{"value":[]},"line_dash_offset":{"value":0},"line_join":{"value":"bevel"},"line_width":{"value":1},"top":{"field":"top"},"width":{"value":0.8},"x":{"field":"Polyarthritis"}},"id":"322643","type":"VBar"},{"attributes":{"bottom":{"field":"bottom"},"fill_alpha":{"value":0.2},"fill_color":{"field":"Variable","transform":{"id":"322622"}},"hatch_alpha":{"value":0.2},"hatch_color":{"field":"Variable","transform":{"id":"322622"}},"line_alpha":{"value":0.2},"top":{"field":"top"},"width":{"value":0.8},"x":{"field":"Polyarthritis"}},"id":"322628","type":"VBar"},{"attributes":{"below":[{"id":"322602"}],"center":[{"id":"322604"},{"id":"322608"},{"id":"322641"}],"height":400,"left":[{"id":"322605"}],"margin":[5,5,5,5],"min_border_bottom":10,"min_border_left":10,"min_border_right":10,"min_border_top":10,"renderers":[{"id":"322629"}],"right":[{"id":"322641"}],"sizing_mode":"fixed","title":{"id":"322594"},"toolbar":{"id":"322615"},"x_range":{"id":"322590"},"x_scale":{"id":"322598"},"y_range":{"id":"322591"},"y_scale":{"id":"322600"}},"id":"322593","subtype":"Figure","type":"Plot"},{"attributes":{"children":[{"id":"322677"},{"id":"322679"}],"margin":[0,0,0,0],"name":"Column672660"},"id":"322676","type":"Column"},{"attributes":{"bottom_units":"screen","coordinates":null,"fill_alpha":0.5,"fill_color":"lightgrey","group":null,"left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"322614","type":"BoxAnnotation"},{"attributes":{"label":{"field":"Variable"},"renderers":[{"id":"322629"}]},"id":"322642","type":"LegendItem"},{"attributes":{"factors":["0.0","1.0","2.0","3.0","4.0","5.0"],"palette":["#30a2da","#fc4f30","#e5ae38","#6d904f","#8b8b8b","#17becf"]},"id":"322622","type":"CategoricalColorMapper"},{"attributes":{},"id":"322636","type":"CategoricalTickFormatter"},{"attributes":{"axis_label":"","coordinates":null,"formatter":{"id":"322633"},"group":null,"major_label_policy":{"id":"322634"},"ticker":{"id":"322606"}},"id":"322605","type":"LinearAxis"},{"attributes":{"children":[{"id":"322589"}],"margin":[0,0,0,0],"name":"Column672662","tags":["embedded"]},"id":"322588","type":"Column"},{"attributes":{},"id":"322609","type":"SaveTool"},{"attributes":{"data":{"Pb_C_hyphen_minus_V":["False","True","False","True","False","True","False","True","False","True","False","True"],"Polyarthritis":["False","True","False","True","False","True","False","True","False","True","False","True"],"Variable":["0.0","0.0","1.0","1.0","2.0","2.0","3.0","3.0","4.0","4.0","5.0","5.0"],"bottom":{"__ndarray__":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAAAAAABhAAAAAAAAAAAAAAAAAAAAgQAAAAAAAABBAAAAAAAAAKkAAAAAAAAAQQAAAAAAAADBA","dtype":"float64","order":"little","shape":[12]},"top":{"__ndarray__":"AAAAAAAAAAAAAAAAAAAUQAAAAAAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAAAAAACBAAAAAAAAAEEAAAAAAAAAqQAAAAAAAABBAAAAAAAAAMEAAAAAAAAAgQAAAAAAAADZA","dtype":"float64","order":"little","shape":[12]},"value":{"__ndarray__":"AAAAAAAAAAAAAAAAAAAUQAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAABAAAAAAAAAEEAAAAAAAAAUQAAAAAAAAAAAAAAAAAAACEAAAAAAAAAQQAAAAAAAABhA","dtype":"float64","order":"little","shape":[12]}},"selected":{"id":"322624"},"selection_policy":{"id":"322638"}},"id":"322623","type":"ColumnDataSource"},{"attributes":{},"id":"322611","type":"WheelZoomTool"},{"attributes":{},"id":"322624","type":"Selection"},{"attributes":{},"id":"322598","type":"CategoricalScale"},{"attributes":{"axis_label":"Polyarthritis","coordinates":null,"formatter":{"id":"322636"},"group":null,"major_label_orientation":1.2217304763960306,"major_label_policy":{"id":"322637"},"ticker":{"id":"322603"}},"id":"322602","type":"CategoricalAxis"}],"root_ids":["322588","322690"]},"title":"Bokeh Application","version":"2.4.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('322786').textContent;
+                  const render_items = [{"docid":"7b610052-eda3-48ec-8228-88b7784a4f35","root_ids":["322588","322690"],"roots":{"322588":"53f2cdff-1d1b-42b7-8090-e71b87e962ae","322690":"e2171a3b-47cb-4df7-8e31-b35e5b3ad569"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
