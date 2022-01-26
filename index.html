@@ -4,10 +4,24 @@
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
   <title>IIEF</title>
 
-  
+<style>
+    body {
+        counter-reset: h1counter;
+    }
+
+    h1:before {
+        content: counter(h1counter) ".\0000a0\0000a0";
+        counter-increment: h1counter;
+        counter-reset: h2counter;
+    }
+    h2:before {
+        content: counter(h1counter) "." counter(h2counter) ".\0000a0\0000a0";
+        counter-increment: h2counter;
+    }
+</style>
 </head><body>
 <h1>IIEF I</h1>
-
+<h2>Graphes dynamiqes</h2>
 <p><a href="iief1/cat_var_plots.html">Categorical Variables</a></p>
 
 <p><a href="iief1/distplots_cats.html">Distribution Plots - Categorical</a></p>
@@ -23,6 +37,14 @@
 <p><a href="iief1/scatterplots.html">Scatter Plots</a></p>
 
 <p><a href="iief1/violinplots.html">Violin Plots</a></p>
+<h2>Graphes statiques</h2>
+<p><a href="iief1/Bar_Plots.svg">Bar Plots</a></p>
+<p><a href="iief1/Box_Plots.svg">Box Plots</a></p>
+<p><a href="iief1/Dist_Plots_Numerics.svg">Distribution Plots - Numerical Variables</a></p>
+<p><a href="iief1/Dist_Plots_target.svg">Distribution Plots - Target Variable</a></p>
+<p><a href="iief1/Heat_Maps.svg">Heat Maps</a></p>
+<p><a href="iief1/Pair_Scatter_Plots.svg">Pairwise Scatter Plots</a></p>
+<p><a href="iief1/Scatter_Plots.svg">Scatter Plots</a></p>
 
 <h1>IIEF II</h1>
 
@@ -41,6 +63,14 @@
 <p><a href="iief2/scatterplots.html">Scatter Plots</a></p>
 
 <p><a href="iief2/violinplots.html">Violin Plots</a></p>
+<h2>Graphes statiques</h2>
+<p><a href="iief2/Bar_Plots.svg">Bar Plots</a></p>
+<p><a href="iief2/Box_Plots.svg">Box Plots</a></p>
+<p><a href="iief2/Dist_Plots_Numerics.svg">Distribution Plots - Numerical Variables</a></p>
+<p><a href="iief2/Dist_Plots_target.svg">Distribution Plots - Target Variable</a></p>
+<p><a href="iief2/Heat_Maps.svg">Heat Maps</a></p>
+<p><a href="iief2/Pair_Scatter_Plots.svg">Pairwise Scatter Plots</a></p>
+<p><a href="iief2/Scatter_Plots.svg">Scatter Plots</a></p>
 
 <h1>IIEF III</h1>
 
@@ -59,6 +89,15 @@
 <p><a href="iief3/scatterplots.html">Scatter Plots</a></p>
 
 <p><a href="iief3/violinplots.html">Violin Plots</a></p>
+<h2>Graphes statiques</h2>
+<p><a href="iief3/Bar_Plots.svg">Bar Plots</a></p>
+<p><a href="iief3/Box_Plots.svg">Box Plots</a></p>
+<p><a href="iief3/Dist_Plots_Numerics.svg">Distribution Plots - Numerical Variables</a></p>
+<p><a href="iief3/Dist_Plots_target.svg">Distribution Plots - Target Variable</a></p>
+<p><a href="iief3/Heat_Maps.svg">Heat Maps</a></p>
+<p><a href="iief3/Pair_Scatter_Plots.svg">Pairwise Scatter Plots</a></p>
+<p><a href="iief3/Scatter_Plots.svg">Scatter Plots</a></p>
+
 
 <h1>IIEF IV</h1>
 
@@ -77,6 +116,15 @@
 <p><a href="iief4/scatterplots.html">Scatter Plots</a></p>
 
 <p><a href="iief4/violinplots.html">Violin Plots</a></p>
+<h2>Graphes statiques</h2>
+<p><a href="iief4/Bar_Plots.svg">Bar Plots</a></p>
+<p><a href="iief4/Box_Plots.svg">Box Plots</a></p>
+<p><a href="iief4/Dist_Plots_Numerics.svg">Distribution Plots - Numerical Variables</a></p>
+<p><a href="iief4/Dist_Plots_target.svg">Distribution Plots - Target Variable</a></p>
+<p><a href="iief4/Heat_Maps.svg">Heat Maps</a></p>
+<p><a href="iief4/Pair_Scatter_Plots.svg">Pairwise Scatter Plots</a></p>
+<p><a href="iief4/Scatter_Plots.svg">Scatter Plots</a></p>
+
 
 <h1>IIEF V</h1>
 
@@ -95,4 +143,13 @@
 <p><a href="iief5/scatterplots.html">Scatter Plots</a></p>
 
 <p><a href="iief5/violinplots.html">Violin Plots</a></p>
+<h2>Graphes statiques</h2>
+<p><a href="iief5/Bar_Plots.svg">Bar Plots</a></p>
+<p><a href="iief5/Box_Plots.svg">Box Plots</a></p>
+<p><a href="iief5/Dist_Plots_Numerics.svg">Distribution Plots - Numerical Variables</a></p>
+<p><a href="iief5/Dist_Plots_target.svg">Distribution Plots - Target Variable</a></p>
+<p><a href="iief5/Heat_Maps.svg">Heat Maps</a></p>
+<p><a href="iief5/Pair_Scatter_Plots.svg">Pairwise Scatter Plots</a></p>
+<p><a href="iief5/Scatter_Plots.svg">Scatter Plots</a></p>
+
 </body></html>
